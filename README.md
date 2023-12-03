@@ -1,54 +1,16 @@
-# Snappy - Chat Application 
-Snappy is chat application build with the power of MERN Stack. You can find the tutorial [here](https://www.youtube.com/watch?v=otaQKODEUFs)
-
-
-![login page](./images/snappy_login.png)
-
-![home page](./images/snappy.png)
-
-## Installation Guide
-
-### Requirements
-- [Nodejs](https://nodejs.org/en/download)
-- [Mongodb](https://www.mongodb.com/docs/manual/administration/install-community/)
-
-Both should be installed and make sure mongodb is running.
-
-```shell
-git clone https://github.com/koolkishan/chat-app-react-nodejs
-cd chat-app-react-nodejs
-```
-Now rename env files from .env.example to .env
-```shell
-cd public
-mv .env.example .env
-cd ..
-cd server
-mv .env.example .env
-cd ..
-```
-
-Now install the dependencies
-```shell
-cd server
-yarn
-cd ..
-cd public
-yarn
-```
-We are almost done, Now just start the development server.
-
-For Frontend.
-```shell
-cd public
-yarn start
-```
-For Backend.
-
-Open another terminal in folder, Also make sure mongodb is running in background.
-```shell
-cd server
-yarn start
-```
-
-Done! Now open localhost:3000 in your browser.
+Thông tin thành viên nhóm:
+	+ Trần Duy Khởi: 52100809
+	+ Nguyễn Thị Phương Lan: 52100812
+	+ Phan Ngọc Linh Duy: 51900054
+Các bước chạy source code:
+	+ Bước 1: tải source code về rồi giải nén
+	+ Bước 2: mở source code bằng visual studio code
+	+ Bước 3: mở mongodb ấn connect ở url mongodb://localhost:27017
+	+ Bước 4: mở terminal gõ cd server
+	+ Bước 5: gõ npm i 
+	+ Bước 6: gõ npm start
+	+ Bước 7: mở 1 terminal khác gõ cd public
+	+ Bước 8: gõ npm i
+	+ Bước 9: gõ npm start
+	* Lưu ý: phải chạy npm start cho server trước khi chạy npm start cho public nếu không sẽ hiện cảnh báo của react
+Link video demo (Truy cập bằng gmail tdtu): https://drive.google.com/file/d/11G4OdOHlbgcNJTCphWWpM7kTYFeKKC34/view?fbclid=IwAR3lGA-61sVsgVQIO8M_Z5N7MOKmuYU71Vcw7X6gkzWGD7a7UkFOrRWC6wA
